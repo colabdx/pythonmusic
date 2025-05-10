@@ -5,7 +5,7 @@ key_signature = key.KeySignature(8)  # 8 sharps correspond to G Sharp Major
 print(f"Key Signature: {key_signature}")
 
 # Create an E Sharp Major scale
-scale = key.Key('G#').getScale('major')  # 'G#' denotes E sharp
+scale = key.Key('G#').getScale('major')  # 'G#' denotes G sharp
 print("G Sharp Major Scale Notes:", [str(p) for p in scale.getPitches()])
 
 # Create a stream (musical score)
