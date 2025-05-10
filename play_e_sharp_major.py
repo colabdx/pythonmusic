@@ -1,7 +1,7 @@
 from music21 import *
 
 # Define the E Sharp Major key
-key_signature = key.KeySignature(9)  # 9 sharps correspond to E Sharp Major
+key_signature = key.KeySignature(11)  # 11 sharps correspond to E Sharp Major
 print(f"Key Signature: {key_signature}")
 
 # Create an E Sharp Major scale
